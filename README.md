@@ -8,6 +8,8 @@ En hardware reset funktion er bygget ind i PongOnlineMobile.
 
 ![Digram](Diagram.png)
 
+
+
 ## Things completed
  - App kan vise opsamlet data
  - App kan sende mqtt og reset embedded
@@ -20,4 +22,6 @@ En hardware reset funktion er bygget ind i PongOnlineMobile.
 ## Things needed
  - microcharts
  - Flyt worker til background service?
+ - Database opsætning
+  - Worker sættes op til database i stedet
  - Brug af Write
