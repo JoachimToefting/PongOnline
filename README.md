@@ -1,7 +1,7 @@
 # PongOnline
 
 ## Beskrivelse
-Pong online er webapi der skal samle information om spillet ([Multipong Embedded](https://github.com/JoachimToefting/EmbeddedMultiPong)) der er k�rer over MQTT og derefter kunne levere det til at app der s� kan vise den information til brugerne.
+Pong online er webapi der skal samle information om spillet ([Multipong Embedded](https://github.com/JoachimToefting/EmbeddedMultiPong)) der er kører over MQTT og derefter kunne levere det til at app der så kan vise den information til brugerne.
 En hardware reset funktion er bygget ind i PongOnlineMobile.
 
 ## Oversigt
