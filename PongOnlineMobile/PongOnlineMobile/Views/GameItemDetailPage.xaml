@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:viewmodels ="clr-namespace:PongOnlineMobile.ViewModels"
+             x:Class="PongOnlineMobile.Views.GameItemDetailPage"
+			 x:DataType="viewmodels:GameItemDetailsViewModel"
+			 Title="{Binding Title}"
+			 >
+	<StackLayout Spacing="20" Padding="15">
+		<Label Text="GameId:" FontSize="Medium"/>
+		<Label Text="{Binding Game.Id}" FontSize="Small"/>
+		<Label Text="Player1:" FontSize="Medium"/>
+		<Label Text="{Binding Game.Player1.PlayerNumber}" FontSize="Small"/>
+		<Label Text="Player2:" FontSize="Medium"/>
+		<Label Text="{Binding Game.Player2.PlayerNumber}" FontSize="Small"/>
+		<Label Text="Winner:" FontSize="Medium"/>
+		<Label Text="{Binding Winner}" FontSize="Small"/>
+	</StackLayout>
+</ContentPage>
